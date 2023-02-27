@@ -3,7 +3,7 @@ import Home from "./Home";
 
 function App() {
   return (
-    <div>
+    <div basename="/delish">
       <h3> Mssg from DELISH</h3>
       <Home />
     </div>
