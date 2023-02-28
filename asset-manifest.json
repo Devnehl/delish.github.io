@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/nehldotjs.github.io/delish/static/js/main.591cc0d5.js",
-    "index.html": "/nehldotjs.github.io/delish/index.html",
-    "main.591cc0d5.js.map": "/nehldotjs.github.io/delish/static/js/main.591cc0d5.js.map"
+    "main.js": "/delish/static/js/main.591cc0d5.js",
+    "index.html": "/delish/index.html",
+    "main.591cc0d5.js.map": "/delish/static/js/main.591cc0d5.js.map"
   },
   "entrypoints": [
     "static/js/main.591cc0d5.js"
