@@ -1,4 +1,5 @@
 function App() {
-  return <div basname="/delish">HELLO</div>;
+  return <div basename="/delish">Welcome to Delish</div>;
 }
+
 export default App;
