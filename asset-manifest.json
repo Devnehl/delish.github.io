@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/delish/static/css/main.9e9b29b2.css",
-    "main.js": "/delish/static/js/main.7ed71fb5.js",
+    "main.css": "/delish/static/css/main.cd0e1f22.css",
+    "main.js": "/delish/static/js/main.5ae2925d.js",
     "static/media/pexels-tim-douglas-6210894.jpg": "/delish/static/media/pexels-tim-douglas-6210894.e1af729d819b65b8479c.jpg",
     "static/media/footerImage.png": "/delish/static/media/footerImage.1f727717c0b1cb011f30.png",
     "static/media/commentImage.png": "/delish/static/media/commentImage.6a115befc9db35088337.png",
@@ -14,11 +14,11 @@
     "static/media/istockphoto-184616438-612x612 1.png": "/delish/static/media/istockphoto-184616438-612x612 1.d30b8add2e56c7e35d28.png",
     "static/media/9-90739_falling-green-leaves-png-leaf 2.png": "/delish/static/media/9-90739_falling-green-leaves-png-leaf 2.b73e35796e6f5f268279.png",
     "index.html": "/delish/index.html",
-    "main.9e9b29b2.css.map": "/delish/static/css/main.9e9b29b2.css.map",
-    "main.7ed71fb5.js.map": "/delish/static/js/main.7ed71fb5.js.map"
+    "main.cd0e1f22.css.map": "/delish/static/css/main.cd0e1f22.css.map",
+    "main.5ae2925d.js.map": "/delish/static/js/main.5ae2925d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e9b29b2.css",
-    "static/js/main.7ed71fb5.js"
+    "static/css/main.cd0e1f22.css",
+    "static/js/main.5ae2925d.js"
   ]
 }
