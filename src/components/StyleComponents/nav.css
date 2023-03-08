@@ -1,0 +1,67 @@
+.nav {
+    width: 100%;
+    height: auto;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    padding-top: 2%;
+}
+
+.navBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.navBtn button {
+    overflow: hidden;
+    border: none;
+    width: 50px;
+    height: auto;
+    padding: 10px 0px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.navLine {
+
+    width: inherit;
+    height: 5px;
+    position: relative;
+    display: flex;
+    background-color: #E61A32;
+}
+
+.line1 {
+    left: 0%;
+}
+
+.line2 {
+    right: 0%;
+}
+
+.lang {
+    gap: 5px;
+    display: flex;
+    position: relative;
+    width: auto;
+    height: 100%;
+}
+
+.nav .logoContainer h1 {
+    font-family: Kaushan Script;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #E61A32;
+}

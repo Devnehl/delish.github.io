@@ -1,0 +1,162 @@
+.menu {
+    padding: 20px 180px;
+    width: 100%;
+    height: auto;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.foodCategoryBtnWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+    height: 50px;
+}
+
+.foodCategoryBtnWrapper .btnContainer {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodCategoryBtnWrapper .btnContainer .btn {
+    padding: 10px;
+    border: none;
+    color: lightgray;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    background-color: transparent;
+    transition: all 350ms ease;
+}
+
+.foodCategoryBtnWrapper .btnContainer .btn:hover {
+    border: 1px solid lightgray;
+}
+
+.catBtnClicked {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    background-color: transparent;
+    transition: all 350ms ease;
+    color: red;
+    border: 1px solid red;
+}
+
+.foodGallery .foodWrapper {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.foodGallery .foodWrapper .foodImageWrapper {
+    height: 200px;
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodGallery .foodWrapper .foodImageWrapper img {
+    height: inherit;
+    width: auto;
+    margin: auto;
+    display: flex;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.foodNameAndLikes {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 5px 0px;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.foodNameAndLikes .foodName {
+    font-family: lato;
+    margin: 0px;
+    color: crimson;
+    display: flex;
+    font-weight: normal;
+}
+
+.rating {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.activeRate {
+    background-color: transparent;
+    color: red;
+    margin: 0px 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.neutralRate {
+    background-color: transparent;
+    color: lightgray;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 5px;
+    border: none;
+}
+
+
+.heart {
+    position: relative;
+    display: inline-block;
+    width: 1.25em;
+    height: 1.25em;
+    font-size: 1.25em;
+    line-height: 1;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.heart::before {
+    content: "\2665";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: gray;
+}
+
+
+.heart.active::before {
+    color: red;
+}

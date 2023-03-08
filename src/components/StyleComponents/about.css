@@ -1,0 +1,57 @@
+.about {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chefImageContainer {
+    position: relative;
+    height: 100vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.chefImageContainer img {
+    position: relative;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    object-fit: contain;
+}
+
+.aboutWriteUp {
+    flex: .5;
+    display: flex;
+    height: 100%;
+    width: auto;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .aboutWriteUp h3 {
+    margin: auto;
+} */
+
+.tomatoContainer {
+    display: flex;
+    height: 150px;
+
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tomatoContainer img {
+    height: 200px;
+    width: auto;
+    display: flex;
+    object-fit: contain;
+}

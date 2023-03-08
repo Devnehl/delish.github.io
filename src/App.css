@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Kaushan+Script&family=Lato&family=Lavishly+Yours&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sectionHeader {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.sectionHeader .headerTag1 {
+    font-family: roboto;
+    color: #E61A32;
+    font-style: normal;
+    display: flex;
+    font-size: 100px;
+    -webkit-text-stroke-width: 1px;
+    padding: 0px;
+    line-height: 20px;
+    -webkit-text-fill-color: transparent;
+}
+
+.sectionHeader .headerTag2 {
+    line-height: 20px;
+    display: flex;
+    font-family: roboto;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: #E61A32;
+}
+
+.hr {
+    background-color: #E61A32;
+    border: none;
+    height: 1px;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
