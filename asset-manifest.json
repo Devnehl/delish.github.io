@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/delish/static/css/main.7f47bf4f.css",
+    "main.css": "/delish/static/css/main.ded80c5b.css",
     "main.js": "/delish/static/js/main.cf466b57.js",
     "static/media/pexels-tim-douglas-6210894.jpg": "/delish/static/media/pexels-tim-douglas-6210894.e1af729d819b65b8479c.jpg",
     "static/media/footerImage.png": "/delish/static/media/footerImage.1f727717c0b1cb011f30.png",
@@ -14,11 +14,11 @@
     "static/media/istockphoto-184616438-612x612 1.png": "/delish/static/media/istockphoto-184616438-612x612 1.d30b8add2e56c7e35d28.png",
     "static/media/leaf.png": "/delish/static/media/leaf.b73e35796e6f5f268279.png",
     "index.html": "/delish/index.html",
-    "main.7f47bf4f.css.map": "/delish/static/css/main.7f47bf4f.css.map",
+    "main.ded80c5b.css.map": "/delish/static/css/main.ded80c5b.css.map",
     "main.cf466b57.js.map": "/delish/static/js/main.cf466b57.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f47bf4f.css",
+    "static/css/main.ded80c5b.css",
     "static/js/main.cf466b57.js"
   ]
 }
