@@ -36,7 +36,7 @@
     margin: auto;
     justify-content: center;
     align-items: center;
-    /* backdrop-filter: blur(5px); */
+    backdrop-filter: blur(5px);
     position: absolute;
 }
 
@@ -75,6 +75,7 @@
     display: flex;
     margin: auto;
     margin-left: 0px;
+    width: 100%;
 }
 
 .footerSocialinksICON a {
@@ -87,13 +88,24 @@
     background: linear-gradient(179.59deg, #E61A32 -1.54%, #A70317 108.43%);
 }
 
+.footerSocialinksICON a:hover {
+    background: linear-gradient(179.59deg, #E61A32 -1.54%, #710a16 108.43%);
+
+}
+
 .footerSocialinksICON .footerIcons {
     display: flex;
     font-size: 20px;
     color: white;
 }
 
-.delishSocialLink p {}
+.delishSocialLink p {
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: lato;
+}
 
 .socialLinksProp,
 .delishSocialLink .socialLinksProp {
@@ -102,4 +114,12 @@
     border: none;
     text-decoration: none;
     color: black;
+    cursor: pointer;
+    transition: 350ms all ease;
+}
+
+.delishSocialLink .socialLinksProp:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    /* color: #A70317; */
 }

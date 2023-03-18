@@ -33,7 +33,7 @@ function Menu() {
     <div className="menu">
       <div className="sectionHeader">
         <h1 className="headerTag1">MENU</h1>
-        <h2 className="headerTag2">MENU</h2>
+        <h2 className="headerTag2">Our Menu</h2>
       </div>
       <div className="foodCategoryBtnWrapper">
         {btnType.map((btnAct, index) => {
@@ -45,14 +45,6 @@ function Menu() {
                 {btnAct}
               </button>
             </div>
-
-            //          <button
-            //   key={button.id}
-            //   className={activeButton === button.id ? 'active' : ''}
-            //   onClick={() => handleButtonClick(button.id)}
-            // >
-            //   {button.label}
-            // </button>
           );
         })}
       </div>

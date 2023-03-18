@@ -5,6 +5,7 @@ import Menu from "./components/Menu";
 import Ad from "./components/Ad";
 import Contact from "./components/Contact";
 import Reviews from "./components/Reviews";
+import Order from "./components/Order";
 import Subscribe from "./components/subscribe";
 import Footer from "./components/Footer";
 
@@ -25,6 +26,7 @@ function App() {
         <Contact />
         <Reviews />
         <hr className="hr" />
+        <Order />
         <Subscribe />
         <Footer />
       </EssentialContextCon>

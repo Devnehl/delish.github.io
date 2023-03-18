@@ -7,24 +7,29 @@ function About() {
     <div className="about">
       <div className="chefImageContainer">
         <img src={chef} alt="chef" />
-      </div>{" "}
-      <div className="aboutWriteUp">
-        <h2>
-          Welcome to <span>Delish</span>
-        </h2>
-        <h3>
-          At Delish, we are passionate about delivering delicious meals straight
-          to your doorstep. Our team of experienced chefs and delivery drivers
-          work tirelessly to provide you with the freshest, highest quality food
-          that will leave you coming back for more. We take pride in sourcing
-          our ingredients from local suppliers and offering a diverse menu that
-          caters to all tastes and dietary requirements. Whether you're in the
-          mood for comfort food or something a little more exotic, we've got you
-          covered. Trust us at Delish to satisfy your cravings and make your
-          dining experience unforgettable.
-        </h3>
+      </div>
+      <div className="aboutContentWrapper">
+        <div className="aboutWriteUp">
+          <h2>
+            Welcome to<span> Delish</span>
+          </h2>
+          <h3>
+            At Delish, we are passionate about delivering delicious meals
+            straight to your doorstep. Our team of experienced chefs and
+            delivery drivers work tirelessly to provide you with the freshest,
+            highest quality food that will leave you coming back for more. We
+            take pride in sourcing our ingredients from local suppliers and
+            offering a diverse menu that caters to all tastes and dietary
+            requirements. Whether you're in the mood for comfort food or
+            something a little more exotic, we've got you covered. Trust us at
+            Delish to satisfy your cravings and make your dining experience
+            unforgettable.
+          </h3>
+        </div>
         <div className="tomatoContainer">
-          <img src={tomato} alt="veggies" />
+          <div className="tomatoImgContainer">
+            <img src={tomato} alt="veggies" />
+          </div>
         </div>
       </div>
     </div>
